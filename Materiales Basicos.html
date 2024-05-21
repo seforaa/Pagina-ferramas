@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <a href="inicio.html"><img src="img/logo.png" id="img-logo" alt="imagen de carrito"></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu"><img src="img/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+              <ul>
+                <li><a href="inicio.html" style="color: #485935;" class="navbar-link">inicio</a></li>
+                <li><a href="Herramientas Manuales.html" style="color: #485935;" class="navbar-link">Herramientas manuales</a>
+                </li>
+                <li><a href="Materiales Basicos.html" style="color: #485935;" class="navbar-link">Materiales Básicos</a></li>
+                <li><a href="Equipo de Seguridad.html" style="color: #485935;" class="navbar-link">Equipo de Seguridad</a>
+                </li>
+                <li><a href="Tornillo y Anclaje.html" style="color: #485935;" class="navbar-link">Tornillo y anclaje</a></li>
+                <li><a href="Fijaciones y Adhesivos.html" style="color: #485935;" class="navbar-link">fijaciones y
+                    Adhesivos</a></li>
+                <li><a href="Equipo de Medicion.html" style="color: #485935;" class="navbar-link">Equipo de Medición</a></li>
+              </ul>
+            </nav>
+            <div>
+              <ul>
+                <li class="submenu">
+                  <a href="carrito.html"><img src="img/carrito.svg" id="img-carrito" alt="imagen de carrito"></a>
+                  <div id="carrito">
+                    <table id="lista-carrito">
+                      <thead>
+                        <tr>
+                          <th>imagen</th>
+                          <th>Nombre</th>
+                          <th>Precio</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody></tbody>
+                    </table>
+                    <div id="total-carrito"></div>
+                    <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <a href="pago.html"><button type="button" class="btn btn-comprar">Comprar</button></a>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+                <br>
+                <hr>
+                <div class="card" style="width: 35%; float: right; margin-left: 50px; margin-right: 50px;">
+                    <img src="img/Arena.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Saco de Arena (25 Kg)</h5>
+                        <h5 class="card-title">$2.000</h5>
+                        <a href="saco de arena.html" class="btn btn-primary">Ir al producto</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 35%; float: right; margin-left: 50px; margin-right: 50px;">
+                    <img src="img/ladrillos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ladrillos</h5>
+                        <h5 class="card-title">$400</h5>
+                        <a href="ladrillo.html" class="btn btn-primary">Ir al producto</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 35%; float: right; margin-left: 50px; margin-right: 50px;">
+                    <img src="img/Pintura.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarro de Pintura</h5>
+                        <h5 class="card-title">$12.000</h5>
+                        <a href="tarro de pintura.html" class="btn btn-primary">Ir al producto</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 35%; float: right; margin-left: 50px; margin-right: 50px;">
+                    <img src="img/Cemento.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cemento (42.5Kg)</h5>
+                        <h5 class="card-title">$7.500</h5>
+                        <a href="cemento.html" class="btn btn-primary">Ir al producto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="Scrip.js"></script>
+</body>
+
+</html>
